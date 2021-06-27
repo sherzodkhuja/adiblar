@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startingFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.adiblarapp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/saqlangan"
+        android:name="com.example.adiblarapp.Saqlangan"
+        android:label="fragment_saqlangan"
+        tools:layout="@layout/fragment_saqlangan" >
+        <action
+            android:id="@+id/action_saqlangan_to_sozlamalar"
+            app:destination="@id/sozlamalar" />
+        <action
+            android:id="@+id/action_saqlangan_to_aboutAdib"
+            app:destination="@id/aboutAdib" />
+    </fragment>
+    <fragment
+        android:id="@+id/sozlamalar"
+        android:name="com.example.adiblarapp.Sozlamalar"
+        android:label="fragment_sozlamalar"
+        tools:layout="@layout/fragment_sozlamalar" />
+    <fragment
+        android:id="@+id/aboutAdib"
+        android:name="com.example.adiblarapp.AboutAdib"
+        android:label="fragment_about_adib"
+        tools:layout="@layout/fragment_about_adib" />
+    <fragment
+        android:id="@+id/categoryAdibRv"
+        android:name="com.example.adiblarapp.CategoryAdibRv"
+        android:label="fragment_category_adib_rv"
+        tools:layout="@layout/fragment_category_adib_rv" >
+        <action
+            android:id="@+id/action_categoryAdibRv_to_aboutAdib"
+            app:destination="@id/aboutAdib" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.adiblarapp.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/startingFragment"
+        android:name="com.example.adiblarapp.StartingFragment"
+        android:label="fragment_starting"
+        tools:layout="@layout/fragment_starting" />
+</navigation>

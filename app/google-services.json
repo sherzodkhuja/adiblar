@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "859673387994",
+    "project_id": "adiblarcloudfirestore",
+    "storage_bucket": "adiblarcloudfirestore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859673387994:android:71a4284437acb98a5896e3",
+        "android_client_info": {
+          "package_name": "com.example.adiblarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859673387994-2ljg5459n8e4orr7r481ajlokrrin6fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoWvTmpMAU9EHkG10Ht89jgMPX7ZxRrfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859673387994-2ljg5459n8e4orr7r481ajlokrrin6fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859673387994:android:480e0d41dafff8ce5896e3",
+        "android_client_info": {
+          "package_name": "com.example.adiblarpost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859673387994-4ndfj2fa9dc3rluq61qvn9gri8mt2u1q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adiblarpost",
+            "certificate_hash": "e92f24fc2018c8ceaae0a06abd782200653d673d"
+          }
+        },
+        {
+          "client_id": "859673387994-2ljg5459n8e4orr7r481ajlokrrin6fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoWvTmpMAU9EHkG10Ht89jgMPX7ZxRrfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859673387994-2ljg5459n8e4orr7r481ajlokrrin6fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
